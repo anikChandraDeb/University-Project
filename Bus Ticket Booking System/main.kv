@@ -1,0 +1,70 @@
+<Main>:
+	MDScreen :
+		md_bg_color : [35/255,59/255,54/255,1]
+
+		MDCard :
+			size_hint : None,None
+			size : 320,400
+			pos_hint : {"center_x":.5,"center_y":.5}
+			elevation : 15
+			md_bg_color : [50/255,50/255,48/255,1]
+			padding : 15
+			spacing : 30
+			orientation : "vertical"
+			# Adding items to the card
+			MDLabel :
+				text : 'Bus Ticket Booking System-> Login for Purchase Ticket'
+				font_style : 'Button'
+				font_size : 30
+				halign : "center"
+				size_hint_y : None
+				height : self.texture_size[1]
+				padding_y : 30
+			MDTextField :
+				hint_text : "user-id"
+				id: user
+				icon_right : "account"
+				size_hint_x : None
+				width : 220
+				font_size : 20
+				pos_hint : {"center_x":.5}
+				color_active : [1,1,1,1]
+			MDTextField :
+				hint_text : "password"
+				icon_right : "eye-off"
+				size_hint_x : None
+				id: password
+				width : 220
+				font_size : 20
+				pos_hint : {"center_x":.5}
+				color_active : [1,1,1,1]
+				password : True
+			MDTextField :
+				hint_text : "Role : user/admin"
+				size_hint_x : None
+				width : 220
+				font_size : 20
+				pos_hint : {"center_x":.5}
+				color_active : [1,1,1,1]
+				password : True
+			BoxLayout:
+				orientation: "horizontal"
+				size: root.width, root.height
+				spacing:30
+				MDRoundFlatButton :
+					text : 'Login'
+					pos_hint : {"center_x":.5}
+					font_size : 15
+					padding_y:30
+					on_press: root.do_login(user.text, password.text)
+				MDRoundFlatButton :
+					text : 'Sign-Up'
+					pos_hint : {"center_x":.5}
+					font_size : 15
+					padding_y:30
+					#on_press: root.search() 
+						
+						
+			Widget :
+				size_hint_y : None
+				height : 30
