@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1646685737 source:d:\duet cse\cse_1year_2ndsemester all resourse\s&oop\lab\to do manager\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cctype>
+	<iomanip>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+	<ctime>
+	"ToDoManager.h"
+	"user.h"
+
+1646686093 d:\duet cse\cse_1year_2ndsemester all resourse\s&oop\lab\to do manager\todomanager.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cctype>
+	<iomanip>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+	<ctime>
+	"Category.h"
+	"Task.h"
+
+1646683597 d:\duet cse\cse_1year_2ndsemester all resourse\s&oop\lab\to do manager\category.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cctype>
+	<iomanip>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+	<ctime>
+
+1646685801 d:\duet cse\cse_1year_2ndsemester all resourse\s&oop\lab\to do manager\task.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cctype>
+	<iomanip>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+	<ctime>
+	"Category.h"
+
+1646683602 d:\duet cse\cse_1year_2ndsemester all resourse\s&oop\lab\to do manager\user.h
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<cctype>
+	<iomanip>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+	<ctime>
+
