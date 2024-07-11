@@ -1,0 +1,281 @@
+body{
+    font-family: sans-serif,"Times New Roman";
+    background-color: #EEEDED;
+}
+a{
+    color: #2A9FC1;
+}
+a:hover{
+    color: #2A9FC1;
+}
+.navbar-brand img{
+    margin-top: -5px;
+}
+.navbar-brand *{
+    color: #fff;
+}
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+}
+.jumbotron #datails{
+    position: absolute;
+    color: #fff;
+}
+.jumbotron #datails span{
+    color: #2A9FC1;
+}
+.jumbotron img{
+    width: 100%;
+}
+.popular{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+}
+.popular img{
+    width: 100%;
+    margin-top: 10px;
+}
+section .widgets{
+    margin-bottom: 10px;
+}
+.popular .datails{
+    margin-left: -20px;
+}
+.popular p{
+    font-family:arial;
+    font-size: 11px;
+}
+.popular ul li{
+    list-style: none;
+}
+.categories{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+}
+.categories img{
+    width: 40px;
+    height: 40px;
+}
+.post{
+    background: white;
+    margin: 15px 0px;
+    border: 1px solid #E3E3E3;
+}
+.post .post-date{
+    padding: 20px;
+    text-align: center;
+    
+}
+.post .post-date .day{
+    font-size: 30px;
+    color: #2A9FC1;
+}
+.post .post-title{
+    padding: 5px 20px 35px 22px;
+    border-left: 1px solid #E3E3E3;
+}
+.post .post-title span{
+    color: #2A9FC1;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.post .post-date .year,.month{
+    font-weight: 100;
+    font-size: 18px;
+}
+.post .profile-picture{
+    padding: 20px;
+}
+.post .profile-picture img{
+    width: 90%;
+}
+.post > a > img{
+    width: 100%;
+    
+}
+.post .desc{
+    font-family: arial;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+}
+.post > a.btn{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.post .bottom{
+    border:  1px solid #E3E3E3;
+    padding: 10px 20px;
+    color: gray;
+}
+nav#pagination{
+    text-align: center;
+}
+#pagination  li  a{
+    padding: 15px 20px;
+    color: #000;
+    font-size: 20px;
+}
+.related-posts{
+    background: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+.related-posts img{
+    width: 100%;
+}
+.author{
+    background: #fff;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.author img{
+    width: 100%;
+}
+.author h4{
+    color: #4DBEE6;
+    text-decoration: underline;
+    
+}
+.author p{
+    font-weight: 400;
+}
+.comment{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.comment h3{
+    color: #4DBEE6;
+    
+}
+.comment h4{
+    color: #4DBEE6;
+    
+}
+.comment p{
+    font-weight: 100;
+}
+.comment img{
+    width: 100%;
+}
+.single-comment{
+    margin-bottom: 10px;
+}
+.comment-box{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.comment-box textarea{
+    resize: none;
+}
+footer{
+    background: black;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+@media (max-width:992px)
+{
+    .post .post-title{
+        margin-top: -45px;
+        text-align: center;
+        border: none;
+    }
+    .post .profile-picture{
+        text-align: center;
+        margin-top: -46px;
+    }
+    .post .profile-picture img{
+        width: 30%;
+    }
+}
+@media (max-width:786px)
+{
+    .navbar-inverse .navbar-nav li>a{
+        text-align: center;
+    }
+    .jumbotron #datails{
+        margin-top: 20px;
+    }
+    .jumbotron #datails h1{
+        font-size: 30px;
+    }
+    .jumbotron #datails p{
+        font-size: 16px;
+    }
+    .post .post-title{
+        margin-top: -45px;
+        text-align: center;
+        border: none;
+    }
+    .post .profile-picture{
+        text-align: center;
+    }
+    .post .profile-picture img{
+        width: 30%;
+    }
+    #pagination  li  a{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+    .author{
+        background: #fff;
+        padding: 20px;
+        overflow: hidden;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .author img{
+        width: 30%;
+    }
+    .author h4{
+        color: #4DBEE6;
+        text-decoration: underline;
+
+    }
+    .author p{
+        font-weight: 400;
+    }
+    
+    footer{
+        font-size: 9px;
+        letter-spacing: 0px;
+    }
+    
+}
+@media (max-width:770px)
+{
+    .comment{
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .comment h3{
+        color: #4DBEE6;
+
+    }
+    .comment h4{
+        color: #4DBEE6;
+
+    }
+    .comment p{
+        font-weight: 100;
+    }
+    .comment img{
+        width: 30%;
+    }
+    .single-comment{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+}
